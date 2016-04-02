@@ -14,12 +14,9 @@ PC
 [COL]
 
 2010: The Graphic Action Game
-
 Centipede
 
-
 [INT]
-
 
 3rd
 
