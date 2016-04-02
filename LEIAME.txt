@@ -5,12 +5,12 @@ Basicamente um repositório com minhas traduções (em IPS) e alguns extras como
 
 Esta lista será atualizada com o que já possui aqui, então o que terá será mais um cabeçalho simples de jogos traduzidos por mim, patryckpo.
 
-# PC
+PC
 
 [DOS]
 [WIN]
 
-# 2nd
+2nd
 
 [COL]
 
@@ -22,36 +22,36 @@ Centipede
 [INT]
 
 
-# 3rd
+3rd
 
 [SG1000]
 [NES]
 [SMS]
 
-# 4th
+4th
 
-# [SMD]
-# [SNES]
-# [NGCD]
+[SMD]
+[SNES]
+[NGCD]
 
 [GB]
-# [SGG]
+[SGG]
 
-# 5th
+5th
 
-# [3DO]
-# [SAT]
-# [PS]
-# [N64]
+[3DO]
+[SAT]
+[PS]
+[N64]
 
 [GBC]
-# [NGP]
+[NGP]
 
-# 6th
+6th
 
-# [DC]
-# [PS2]
-# [GC]
+[DC]
+[PS2]
+[GC]
 
-# [GBA]
+[GBA]
 [DS]
