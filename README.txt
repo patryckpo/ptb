@@ -1,4 +1,3 @@
-# ptb
 Basicamente um repositório com minhas traduções (em IPS) e alguns extras como
 1. Posições de tilemaps
 2. Manuais e afins traduzidos
