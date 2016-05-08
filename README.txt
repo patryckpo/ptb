@@ -8,6 +8,8 @@ PC
 
 [DOS]
 [WIN]
+ZDoom (tradução carregada automaticamente desde versão 2.7, mas contém suas falhas por falta de edição nos WADs que necessitam
+ser feitas para poder rodar realmente 100% traduzido)
 
 2nd
 
