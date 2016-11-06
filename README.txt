@@ -5,6 +5,7 @@ Basicamente um repositório com minhas traduções (em IPS) e alguns extras como
 Esta lista será atualizada com o que já possui aqui, então o que terá será mais um cabeçalho simples de jogos traduzidos por mim, patryckpo.
 
 NOTA: Agradecimentos a "ajkmetiuk" por me ajudar testando as traduções e a equipe do FUT/RHBR pelo apoio dado até agora.
+Ah, também agradecer ao Mr. Fox (devilfox) que está de volta cuidando do PO.B.R.E. e está tendo toda paciência do mundo com meus problemas de compartilhamento (Afinal o OneDrive reduziu sua cota de armazenamento e fui pro Google Drive, mas tô me batendo mais que galinha desnocada, vixe...)
 Apesar de não ter um grupo, pode me mandar uma mensagem ou comentário e terei o maior prazer de lhe ajudar com o que posso, mas poste um comentário coerente em relação a cada tradução aqui(como erros encontrados nas mesmas); agradecimentos, críticas, cobranças e outras dúvidas, postem no site principal:
                                      ab-gamesinc-br.blogspot.com.br
 ===============================================
@@ -32,6 +33,7 @@ ser feitas para poder rodar realmente 100% traduzido)
 
 [COL]
 2010: The Graphic Action Game
+Boulde Dash
 Centipede
 
 [INT]
@@ -40,6 +42,9 @@ Centipede
 ----
 
 [SG1000]
+Congo Bongo
+Flicky
+Girl's Garden
 Lode Runner
 SEGA Flipper
 Wonder Boy
@@ -47,6 +52,10 @@ Zippy Race
 
 [NES]
 [SMS]
+Action Fighter
+Alien Syndrome
+Altered Beast
+Argos no Juujiken
 
 4th
 ----
