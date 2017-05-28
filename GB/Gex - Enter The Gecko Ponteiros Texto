@@ -14,6 +14,12 @@ posições diferentes na ROM, talvez você possa aproveitar o espaço
 livre para outra coisa, apontando-os pro mesmo texto e economizando
 diálogos...
 
+NOTA2: Acho que essa versão teria todos os níveis da versão do
+PlayStation ou do Nintendo 64, pois possui texto do Rocket Channel
+e Boss TV que não remetem a nenhuma fase dentro do jogo. Será que
+tem modo Debug escondido? (Secret Station aparece também, alguém
+sabe se é acessível?)
+
 Textos gerais: 
 0x586b e 0x570a
 285d (0x5d28 - GAME OVER) 
@@ -245,7 +251,8 @@ estaria indicado aqui; aponta para um código vazio "80") 
 a665 (0x65a6 - Se o nivel tivesse um terceiro controle para coletar,
 estaria indicado aqui; aponta para um código vazio "80") 
 
-0x65a7 (8 bytes) - 27: Desconhecido (Talvez seja um dos niveis cortados dessa versão, todos empurram para um código vazio "80")
+0x65a7 (8 bytes) - 27: Desconhecido (Talvez seja um dos niveis cortados
+dessa versão, todos empurram para um código vazio "80")
 af 65 b0 65 b1 65 b2 65
 Talvez a ordem seja a mesma, onde:
 af65 (0x65af - Título da fase)
