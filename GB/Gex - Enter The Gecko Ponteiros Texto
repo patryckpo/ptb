@@ -1,0 +1,279 @@
+Notas para quem utilizar mais tarde:
+O jogo carrega os ponteiros antes do texto, no formato:
+"af5f", onde o endereço no arquivo é 0x5faf
+Cada caixa de texto termina com o código hexadecimal "80"
+Espero poder documentar onde indica cada parte em texto. 
+
+OBS.: Talvez os niveis cortados possam ser acessados de alguma forma,
+como não tenho muito conhecimento com ASM nem com Z80, talvez alguém
+possa continuar de onde parei. 
+
+NOTA1: Os niveis "Thursday The 12th", "Lizard In A China Shop",
+"Chips And Dips" e "Bugged Out" possuem o mesmo texto em
+posições diferentes na ROM, talvez você possa aproveitar o espaço
+livre para outra coisa, apontando-os pro mesmo texto e economizando
+diálogos...
+
+Textos gerais: 
+0x586b e 0x570a
+285d (0x5d28 - GAME OVER) 
+0x569e e 0x56d8
+eb5c (0x5ceb - RESUME) 
+
+-----------------
+Niveis: 
+
+0x5f88 (8 bytes) - 0: The Media Dimension
+90 5f a4 5f a5 5f a6 5f 
+905f (0x5f90 - Título da fase)
+a45f, a55f, a65f (0x5fa4 a 0x5fa6 - Mesmo a fase nem contendo
+controles para coletar, os ponteiros continuam disponiveis no
+arquivo para os 3 controles, mesmo contendo código "80" neles) 
+
+0x5fa7 (8 bytes) - 1: Out Of Toon
+af 5f bb 5f d6 5f eb 5f 
+af5f (0x5faf - Título da fase)
+bb5f (0x5fbb - Controle 1 de 3)
+d65f (0x5fd6 - Controle 2 de 3)
+eb5f (0x5feb - Controle 3 de 3) 
+
+0x6007 (8 bytes) - 2: Smellraiser
+0f 60 1b 60 37 60 50 60 
+0f60 (0x600f - Título da fase)
+1b60 (0x601b - Controle 1 de 3)
+3760 (0x6037 - Controle 2 de 3)
+5060 (0x6050 - Controle 3 de 3) 
+
+0x606a (8 bytes) - 3: Frankensteinfeld
+72 60 83 60 98 60 ab 60 
+7260 (0x6072 - Título da fase)
+8360 (0x6083 - Controle 1 de 3)
+9860 (0x6098 - Controle 2 de 3)
+ab60 (0x60ab - Controle 3 de 3) 
+
+0x60ca (8 bytes) - 4: www.dotcom.com
+d2 60 e1 60 ff 60 1a 61 
+d260 (0x60d2 - Título da fase)
+e160 (0x60e1 - Controle 1 de 2)
+ff60 (0x60ff - Controle 2 de 2)
+1a61 (0x611a - Se o nivel tivesse um terceiro controle para coletar,
+estaria indicado aqui; aponta para um código vazio "80") 
+
+0x611b (8 bytes) - 5: Mao Tse Tongue
+23 61 32 61 4b 61 5e 61 
+2361 (0x6123 - Título da fase)
+3261 (0x6132 - Controle 1 de 2)
+4b61 (0x614b - Controle 2 de 2)
+5e61 (0x615e - Se o nivel tivesse um terceiro controle para coletar,
+estaria indicado aqui; aponta para um código vazio "80") 
+
+0x615f (8 bytes) - 6: Desconhecido (Talvez seja um dos niveis cortados
+dessa versão, todos empurram para um código vazio "80")
+67 61 68 61 69 61 6a 61
+Talvez a ordem seja a mesma, onde:
+6761 (0x6167 - Título da fase)
+6861 (0x6168 - Controle 1 de ?)
+6961 (0x6169 - Controle 2 de ?)
+6a61 (0x616a - Controle 3 de ?) 
+
+0x616b (8 bytes) - 7: Pangaea 90210
+73 61 81 61 99 61 ab 61 
+7361 (0x6173 - Título da fase)
+8161 (0x6181 - Controle 1 de 2)
+9961 (0x6199 - Controle 2 de 2)
+ab61 (0x61ab - Se o nivel tivesse um terceiro controle para coletar,
+estaria indicado aqui; aponta para um código vazio "80") 
+
+0x61ac (8 bytes) 8: Fine Tooning
+b4 61 c1 61 d0 61 e1 61 
+b461 (0x61b4 - Título da fase)
+c161 (0x61c1 - Controle 1 de 2)
+d061 (0x61d0 - Controle 2 de 2)
+e161 (0x61e1 - Se o nivel tivesse um terceiro controle para coletar,
+estaria indicado aqui; aponta para um código vazio "80") 
+
+0x61e2 (8 bytes) - 9: This Old Cave
+ea 61 f8 61 0f 62 24 62 
+ea61 (0x61ea - Título da fase)
+f861 (0x61f8 - Controle 1 de 3)
+0f62 (0x620f - Controle 2 de 3)
+2462 (0x6224 - Controle 3 de 3) 
+
+0x623d (8 bytes) - 10: Honey I Shrunk The Gecko
+45 62 5e 62 70 62 83 62 
+4562 (0x6245 - Título da fase)
+5e62 (0x625e - Controle 1 de 3)
+7062 (0x6270 - Controle 2 de 3)
+8362 (0x6283 - Controle 3 de 3) 
+
+0x629b (8 bytes) - 11: Poltergex
+a3 62 ad 62 c4 62 e0 62 
+a362 (0x62a3 - Título da fase)
+ad62 (0x62ad - Controle 1 de 3)
+c462 (0x62c4 - Controle 2 de 3)
+e062 (0x62e0 - Controle 3 de 3)
+
+0x62fa (8 bytes) - 12: Desconhecido (Talvez seja um dos niveis cortados
+dessa versão, todos empurram para um código vazio "80")
+02 63 03 63 04 63 05 63
+Talvez a ordem seja a mesma, onde:
+0263 (0x6302 - Título da fase)
+0363 (0x6303 - Controle 1 de ?)
+0463 (0x6304 - Controle 2 de ?)
+0563 (0x6305 - Controle 3 de ?) 
+
+0x6306 (8 bytes) - 13: Samurai Night Fever
+0e 63 22 63 3c 63 58 63 
+0e63 (0x630e - Título da fase)
+2263 (0x6322 - Controle 1 de 3)
+3c63 (0x633c - Controle 2 de 3)
+5863 (0x6358 - Controle 3 de 3) 
+
+0x6372 (8 bytes) 14: No Weddings And A Funeral
+7a 63 94 63 b2 63 b3 63 
+7a63 (0x637a - Título da fase)
+9463 (0x6394 - Controle 1 de 1)
+b263 (0x63b2 - Se o nivel tivesse um segundo controle para coletar,
+estaria indicado aqui; aponta para um código vazio "80")
+b363 (0x63b3 - Se o nivel tivesse um terceiro controle para coletar,
+estaria indicado aqui; aponta para um código vazio "80") 
+
+0x63b4 (8 bytes) - 15: Desconhecido (Talvez seja um dos niveis cortados
+dessa versão, todos empurram para um código vazio "80")
+bc 63 bd 63 be 63 bf 63
+Talvez a ordem seja a mesma, onde:
+bc63 (0x63bc - Título da fase)
+bd63 (0x63bd - Controle 1 de ?)
+be63 (0x63be - Controle 2 de ?)
+bf63 (0x63bf - Controle 3 de ?) 
+
+0x63c0 (8 bytes) - 16: Thursday The 12th
+c8 63 da 63 fb 63 fc 63
+c863 (0x63c8 - Título da fase)
+da63 (0x63da - Controle 1 de 1)
+fb63 (0x63fb - Se o nivel tivesse um segundo controle para coletar,
+estaria indicado aqui; aponta para um código vazio "80")
+fc63 (0x63fc - Se o nivel tivesse um terceiro controle para coletar,
+estaria indicado aqui; aponta para um código vazio "80") 
+
+0x63fd (8 bytes) -17: Desconhecido (Talvez seja um dos niveis cortados
+dessa versão, todos empurram para um código vazio "80")
+05 64 06 64 07 64 08 64
+Talvez a ordem seja a mesma, onde:
+0564 (0x6405 - Título da fase)
+0664 (0x6406 - Controle 1 de ?)
+0764 (0x6407 - Controle 2 de ?)
+0864 (0x6408 - Controle 3 de ?) 
+
+0x6409 (8 bytes) - 18: Desconhecido (Talvez seja um dos niveis cortados
+dessa versão, todos empurram para um código vazio "80")
+11 64 12 64 13 64 14 64
+Talvez a ordem seja a mesma, onde:
+1164 (0x6411 - Título da fase)
+1264 (0x6412 - Controle 1 de ?)
+1364 (0x6413 - Controle 2 de ?)
+1464 (0x6414 - Controle 3 de ?) 
+
+0x6415 (8 bytes) - 19: Desconhecido (Talvez seja um dos niveis cortados
+dessa versão, todos empurram para um código vazio "80")
+1d 64 1e 64 1f 64 20 64
+Talvez a ordem seja a mesma, onde:
+1d64 (0x641d - Título da fase)
+1e64 (0x641e - Controle 1 de ?)
+1f64 (0x641f - Controle 2 de ?)
+2064 (0x6420 - Controle 3 de ?) 
+
+0x6421 (8 bytes) - 20: Desconhecido (Talvez seja um dos niveis cortados
+dessa versão, todos empurram para um código vazio "80")
+29 64 2a 64 2b 64 2c 64
+Talvez a ordem seja a mesma, onde:
+2964 (0x6429 - Título da fase)
+2a64 (0x642a - Controle 1 de ?)
+2b64 (0x642b - Controle 2 de ?)
+2c64 (0x642c - Controle 3 de ?) 
+
+0x642d (8 bytes) - 21: Lizard In A China Shop
+35 64 4c 64 6d 64 6e 64 
+3564 (0x6435 - Título da fase)
+4c64 (0x644c - Controle 1 de 1)
+6d64 (0x646d - Se o nivel tivesse um segundo controle para coletar,
+estaria indicado aqui; aponta para um código vazio "80")
+6e64 (0x646e - Se o nivel tivesse um terceiro controle para coletar,
+estaria indicado aqui; aponta para um código vazio "80") 
+
+0x646f (8 bytes) - 22: Bugged Out
+77 64 82 64 a3 64 a4 64 
+7764 (0x6477 - Título da fase)
+8264 (0x6482 - Controle 1 de 1)
+a364 (0x64a3 - Se o nivel tivesse um segundo controle para coletar,
+estaria indicado aqui; aponta para um código vazio "80")
+a464 (0x64a4 - Se o nivel tivesse um terceiro controle para coletar,
+estaria indicado aqui; aponta para um código vazio "80") 
+
+0x64a5 (8 bytes) - 23: Chips And Dips
+ab 64 bc 64 dd 64 de 64 
+ab64 (0x64ab - Título da fase)
+bc64 (0x64bc - Controle 1 de 1)
+dd64 (0x64dd - Se o nivel tivesse um segundo controle para coletar,
+estaria indicado aqui; aponta para um código vazio "80")
+de64 (0x64de - Se o nivel tivesse um terceiro controle para coletar,
+estaria indicado aqui; aponta para um código vazio "80") 
+
+0x64df (8 bytes) - 24: Lava Daba Doo
+e7 64 f5 64 10 65 11 65 
+e764 (0x64e7 - Título da fase)
+f564 (0x64f5 - Controle 1 de 1)
+1065 (0x6510 - Se o nivel tivesse um segundo controle para coletar,
+estaria indicado aqui; aponta para um código vazio "80")
+1165 (0x6511 - Se o nivel tivesse um terceiro controle para coletar,
+estaria indicado aqui; aponta para um código vazio "80") 
+
+0x6512 (8 bytes) - 25: Texas Chainsaw Manicure
+1a 65 32 65 4e 65 4f 65 
+1a65 (0x651a - Título da fase)
+3265 (0x6532 - Controle 1 de 1)
+4e65 (0x654e - Se o nivel tivesse um segundo controle para coletar,
+estaria indicado aqui; aponta para um código vazio "80")
+4f65 (0x654f - Se o nivel tivesse um terceiro controle para coletar,
+estaria indicado aqui; aponta para um código vazio "80") 
+
+0x6550 (8 bytes) - 26:Mazed And Confused
+58 65 6b 65 80 65 a6 65 
+5865 (0x6558 - Título da fase)
+6b65 (0x656b - Controle 1 de 2)
+8065 (0x6580 - Controle 2 de 2)
+a665 (0x65a6 - Se o nivel tivesse um terceiro controle para coletar,
+estaria indicado aqui; aponta para um código vazio "80") 
+
+0x65a7 (8 bytes) - 27: Desconhecido (Talvez seja um dos niveis cortados dessa versão, todos empurram para um código vazio "80")
+af 65 b0 65 b1 65 b2 65
+Talvez a ordem seja a mesma, onde:
+af65 (0x65af - Título da fase)
+b065 (0x65b0 - Controle 1 de ?)
+b165 (0x65b1 - Controle 2 de ?)
+b265 (0x65b2 - Controle 3 de ?) 
+
+0x65b3 (8 bytes) - 28: Desconhecido (Talvez seja um dos niveis cortados
+dessa versão, todos empurram para um código vazio "80")
+bb 65 bc 65 bd 65 be 65
+Talvez a ordem seja a mesma, onde:
+bb65 (0x65bb - Título da fase)
+bc65 (0x65bc - Controle 1 de ?)
+bd65 (0x65bd - Controle 2 de ?)
+be65 (0x65be - Controle 3 de ?) 
+
+0x65bf (8 bytes) - 29: Desconhecido (Talvez seja um dos niveis cortados
+dessa versão, todos empurram para um código vazio "80")
+c7 65 c8 65 c9 65 ca 65
+Talvez a ordem seja a mesma, onde:
+c765 (0x65c7 - Título da fase)
+c865 (0x65c8 - Controle 1 de ?)
+c965 (0x65c9 - Controle 2 de ?)
+ca65 (0x65ca - Controle 3 de ?) 
+
+0x65cb (8 bytes) - 30: Channel Z
+d3 65 dd 65 fc 65 fd 65 
+d365 (0x65d3 - Título da fase)
+dd65 (0x65dd - Objetivo 1 de 1)
+fc65 e fd65 (0x65fc e 0x65fd - Se este nível tivesse controles a coletar
+estariam indicados aqui) 
