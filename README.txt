@@ -42,6 +42,7 @@ Centipede
 ----
 
 [SG1000]
+Borderline
 Congo Bongo
 Flicky
 Girl's Garden
@@ -69,6 +70,7 @@ Addams Family: Pugsley's Scavenger Hunt
 Adventure Island
 Adventure Island II: Aliens In Paradise
 Aero Star
+Zool
 
 [SGG]
 
@@ -81,6 +83,8 @@ Aero Star
 [N64]
 /
 [GBC]
+Croc
+Gex: Enter The Gecko
 [NGP]
 
 6th
