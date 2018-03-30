@@ -1,0 +1,61 @@
+*ponteiros informados com base na tradução
+*ou seja, são diferentes da ROM original mas
+*se encontram nos mesmos offsets, eu acho.
+
+Para fins ilustrativos, "[]" indicam onde começa e termina cada ponteiro,
+para melhor mostrar onde os espaços estão; resumindo, ignore-os.
+---------------------------------------------------------------------------
+Ordem descrita abaixo:
+
+$1FFF=CD7D1121 4439 11FF2F 01 03 00
+onde CD7D1121 = ?? (tem alguma coisa a ver com a tela na qual se encontra)
+onde 4439 = Posição na tela
+onde 11FF2F = Ponteiro (somente ignore o 11)
+onde 01 = ??
+onde 03 = Tamanho do ponteiro (em caracteres, máximo de 31 por linha,
+	se precisar ocultar a linha use redirecionando a um espaço
+	e mude para 01)
+onde 00 = ?? (Talvez seria o separador do código para carregar o seguinte)
+---------------------------------------------------------------------------
+$2B36=CD931121 4A39 11102D 01 0A 00
+Texto do ponteiro ($2D10): [PARA JOGAR]
+
+$2B42=CD7D1121 A639 111A2D 01 12 00
+Texto do ponteiro ($2D1A): [APERTE UM BOTÃO OU]
+
+$2B4E=CD7D1121 C839 112C2D 01 0F 00
+Texto do ponteiro ($2D2C): [A TECLA INS/DEL]
+
+$2B5A=CD7D1121 E339 113B2D 01 18 00
+Texto do ponteiro ($2D3B): [OU FUNC PARA 2 JOGADORES]
+
+$2B66=CD7D1121 643A 11532D 01 09 00
+Texto do ponteiro ($2D53): [TRADUZIDO]
+
+$2B72=CD7D1121 6E3A 11522D 01 18 00
+Texto do ponteiro ($2D5C): [POR]
+
+$2B7E=CD7D1121 723A 115F2D 01 09 00
+Texto do ponteiro ($2D5F): [PATRYCKPO]
+
+$2B8A=CD7D1121 633A 11142D 01 01 00
+Ponteiro redirecionado a espaço
+
+$2B96=CD7D1121 EA3A 11772D 01 0B 00
+Texto do ponteiro ($2D77): [© SEGA 1984]
+
+$2BD1=C3F82C21 283A 11A02D 01 10 00
+Texto do ponteiro ($2DA0): [ESCOLHA UM NÍVEL]
+
+$2BDD=CD7D1121 6D3A 11702D 01 07 00
+Texto do ponteiro ($2D70): [NÍVEL 1]
+
+*Níveis 2 a 5 têm seus próprios ponteiros mas como não foram
+*alterados estão próximos ao 0x2BE9 em diante, e seus textos
+*estão próximos ao 0x2DB4 em diante.
+
+$2D82=[  JAB   ]
+$2D8A=[ GANCHO ]
+$2D92=[ DIRETO ]
+$2DD9=[     CPU]
+$7698=[   1UP  NIVEL ROUND TEMPO 2UP   ]
