@@ -1,0 +1,73 @@
+---------------------------------------------------------------------------
+$FFF=0652 FF5A
+onde:
+0652= posição do texto na tela
+FF5A= ponteiro de texto
+---------------------------------------------------------------------------
+$4E9=063A F904
+Texto do ponteiro ($4F9):[APERTE UM BOTÃO NO]
+
+$4ED=483A 0C05
+Texto do ponteiro ($50C):[CONTROLE 1 OU 2]
+
+$4F1=843A E87F
+Texto do ponteiro ($7FE8):[TRADUZIDO POR PATRYCKPO]
+---------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+$FFF=0652 FF1F 11 EE33 04 0909
+onde:
+0652= ??
+FF1F= ponteiro de texto
+11= ??
+EE33=posição do texto na tela
+04= ??
+0909= tamanho do ponteiro 
+---------------------------------------------------------------------------
+$11C5=D921 E613 11 E938 01 0E0E
+Texto do ponteiro ($13E6):[JOGADOR 1 VAI!]
+Checar $11E8 para ponteiro do número 2 em [JOGADOR 2 VAI!]
+---------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+$1FFF=0136 12 00 1F1F
+onde:
+0136= posição do texto na tela
+12= tamanho do ponteiro
+00= ?? (desconsiderar)
+1F1F= ponteiro de texto
+---------------------------------------------------------------------------
+$12F3=0238 11 00 BB13
+Texto do ponteiro ($13BB):[J1      RECORDE]
+
+$12F9=2838 01 00 CC13
+$12FF=3238 01 00 CC13
+$131D=3D38 01 00 CC13
+Texto do ponteiro ($13CC): 0
+
+$1305=6438 19 00 CD13
+Texto do ponteiro ($13CD):[D-WANG    TEMPO   INIMIGO]
+
+$130B=D83A 05 00 F413
+Texto do ponteiro ($13F4):[NÍVEL]
+
+$1311=8238 1C 00 F913
+Ponteiro referente a barra de vida e tempo abaixo do texto em $13CD
+
+$1317=1838 03 00 1514
+Texto do ponteiro ($1415):[ J2]
+
+$1705 possui ponteiro referente a $1840
+0439 06 17
+$1840=[O AMOR NOS LEVA A FAZER]
+
+$170D possui ponteiro referente a $1857
+2B39 06 09
+$1857=[LOUCURAS!]
+$1715 possui ponteiro referente a $186B
+6839 06 11
+$186B=[CONTINUE LUTANDO!]
+$19C6=[JOGADOR 1]
+$19CF=[  ACABOU ]
+$19D8=[JOGADOR 2]
+$19E1=[  ACABOU ]
