@@ -1,0 +1,50 @@
+$4B1=21 450C 06 04
+Texto do ponteiro ($C54):[ VAI ]
+
+$5A0=21 F93F 06 06
+Texto do ponteiro ($3FF9):[PILOTO](no caso, jogador 1/2)
+
+$70A=21 FA07 06 0D
+Texto do ponteiro ($7FA):[TROCAR PILOTO]
+
+$7AD=11 073A CD F501 06 "0B"<- (esta instrução foi puxada "errada", mas o que importa é o 0B)
+Ponteiro para limpar o texto em $7C9 da tela (se editar o ponteiro de texto como eu fiz, precisa editar este. Acho que este não é o único caso, necessita investigar os outros se usam a mesma lógica deste ponteiro)
+$7C9=21 EE3F 06 0B
+Texto do ponteiro ($3FEE):[FIM DE JOGO]
+
+$C4A=[NÍVEL]
+
+$350F=21 0D36 CDF5 01 06 08
+Texto do ponteiro ($360D):[ RECORDE]
+
+$3521=21 1536 06 03
+Texto do ponteiro ($3615):[ P1]
+
+$353A=21 1836 06 03
+Texto do ponteiro ($3618):[ P2]
+
+$3757=[Gráfico do título-linha 1]23 CARACTERES
+$376F=[Gráfico do título-linha 2]23 CARACTERES
+$3787=[Gráfico do título-linha 3]23 CARACTERES
+$379F=[Gráfico do título-linha 4]23 CARACTERES
+$37B7=[Gráfico do título-linha 5]23 CARACTERES
+$37CF=[Gráfico do título-linha 6]23 CARACTERES
+...Espaço de texto a rodo no título...
+$37E7=[                       ]23 CARACTERES
+$37FF=[     PARA JOGAR        ]23 CARACTERES
+$3817=[                       ]23 CARACTERES
+$382F=[   APERTE UM BOTÃO NO   ]24 CARACTERES
+$3847=[ CONTROLE 1 OU A TECLA ]23 CARACTERES
+$385F=[        INS/DEL        ]23 CARACTERES
+$3877=[          OU           ]23 CARACTERES
+$388F=[   APERTE UM BOTÃO NO  ]23 CARACTERES
+$38A7=[ CONTROLE 2 OU A TECLA ]23 CARACTERES
+$38BF=[ FUNC PARA 2 JOGADORES  ]24 CARACTERES
+$38D7=[                       ]23 CARACTERES
+$38EF=[TRADUZIDO POR PATRYCKPO]23 CARACTERES
+$3907=[                       ]23 CARACTERES
+$391F=[PRODUZIDO E DISTRÍBUIDO]23 CARACTERES
+$3937=[         POR           ]23 CARACTERES
+#394F=[ SEGA ENTERPRISES LTD. ]23 CARACTERES
+$3967=[                       ]23 CARACTERES
+$397F=[ © 1981 1983 NAMCO LTD.]23 CARACTERES
