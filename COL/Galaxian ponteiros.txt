@@ -1,0 +1,120 @@
+CHR=HEX
+0=F0/40/20
+1=F1/41/21
+2=F2/42/22
+3=F3/43/23
+4=F4/44/24
+5=F5/45/25
+6=F6/46/26
+7=F7/47/27
+8=F8/48/28
+9=F9/49/29
+A=5C/4A/2A
+C=5D/4B/2B
+D=5E/4C/2C
+E=5F/4D/2D
+F=60/4E/2E
+I=61/4F/2F
+L=62/50/30
+M=63/51/31
+N=64/52/32
+O=65/53/33
+P=66/54/34
+Á=67/55/35
+S=68/56/36
+T=69/57/37
+U=6A/58/38
+V=6B/59/39
+Í=6C/5A/3A
+B=6D/5B/3B
+É=5C/3C
+
+Ponteiros referentes aos tiles de texto em $567, $573 e $579 (sendo os dois últimos redirecionados para $5010 para adicionar uma letra extra na tradução)
+Existe mais um ponteiro em relação ao tamanho (comprimento) do banco de letras em $4AB e $4C1, só não sei para qual dos dois códigos ele é (editado para adicionar a letra "É")
+
+Os ponteiros de texto neste jogo são confusos, os espaços foram removidos (cada palavra aparece num ponteiro separado) e apontam para endereços diferentes (no caso ele vê o texto a partir de $8000, que equivale a $0000 na ROM, ou seja, se o endereço na ROM é $1FC3 ele verá como $9FC3, além dos caracteres estarem sendo vistos em 3 códigos diferentes, como você pode ter notado acima)
+
+$1EF9=CB1D C99F 06
+       |     |    \
+       |     \     Comprimento do ponteiro (6 caracteres)
+       \      Ponteiro de texto ($1FC9):[PILOTO]
+        Posição do texto na tela
+
+$1EFF=D21D C39F 02
+Texto do ponteiro ($1FC3):[UM]
+
+$1F07=0D1E E99F 03
+$1F0D=101E EC9F 03
+Texto do ponteiro ($1FE9):[ACABOU]
+
+$1F15=CB1D C99F 06
+Texto do ponteiro ($1FC9):[PILOTO]
+
+$1F1B=D21D C59F 04
+Texto do ponteiro ($1FC5):[DOIS]
+
+$1F23=8B1C A99F 02
+Texto do ponteiro ($1FA9):[UM]
+
+$1F29=8F1C AC9F 06
+Texto do ponteiro ($1FAC):[PILOTO]
+
+$1F2F=E61C BD9F 01
+Ponteiro do número no menu ($1FBD=[1])
+
+$1F35=EE1C B79F 05
+Texto do ponteiro ($1FB7):[FÁCIL]
+
+$1F3B=E81C B29F 05
+Texto do ponteiro ($1FB2):[NÍVEL]
+
+$1F41=261D BE9F 01
+Ponteiro do número no menu ($1FBE=[2])
+
+$1F47=2E1D D59F 05
+Texto do ponteiro ($1FD5):[MÉDIO]
+
+$1F4D=281D D09F 05
+Texto do ponteiro ($1FD0):[NÍVEL]
+
+$1F53=661D BF9F 01
+Ponteiro do número no menu ($1FBF=[3])
+
+$1F59=6E1D E19F 07
+Texto do ponteiro ($1FE1):[DIFÍCIL]
+
+$1F5F=681D D09F 05
+Texto do ponteiro ($1FD0):[NÍVEL]
+
+$1F65=EB1D C59F 04
+Texto do ponteiro ($1FC5):[DOIS]
+
+$1F6B=F01D C99F 07
+Texto do ponteiro ($1FC9):[PILOTOS]
+
+$1F71=461E C09F 01
+Ponteiro do número no menu ($1FC0=[4])
+
+$1F77=4E1E F69F 05
+Texto do ponteiro ($1FF6):[FÁCIL]
+
+$1F7D=481E F19F 05
+Texto do ponteiro ($1FF1):[NÍVEL]
+
+$1F83=861E C19F 01
+Ponteiro do número no menu ($1FC1=[5])
+
+$1F89=8E1E FC9F 0C
+Texto do ponteiro ($1FFC):[MÉDIO]
+
+$1F8F=881E F19F 05
+Texto do ponteiro ($1FF1):[NÍVEL]
+
+$1F95=C61E C29F 01
+Ponteiro do número no menu ($1FC2=[6])
+
+$1F9B=CE1E 08A0 07
+Texto do ponteiro ($2008):[DIFÍCIL]
+
+$1FA1=C81E F19F 05
+Texto do ponteiro ($1FF1):[NÍVEL]
