@@ -1,0 +1,89 @@
+Código começa em $13EC (um pouco antes, na verdade)
+$1404=[ CANADÁ ]
+$140C=[ E.U.A. ]
+$1414=[ BRASIL ]
+$141C=[ESPANHA ]
+$1424=[ FRANÇA ]
+$142C=[BELGICA ]
+$1434=[HOLANDA ]
+$143C=[ALEMANHA]
+$1444=[ÁUSTRIA ]
+$144C=[ ITÁLIA ]
+$1454=[ JAPÃO  ]
+$145C=[GP WORLD] (??)
+
+$11E4=4D39 07 00 4912
+        ^   ^     ^
+        |   |     |
+        |   |     Ponteiro de texto ($11E4):[ESCOLHA]
+        |   Tamanho do ponteiro (7 caracteres)
+        Posição na VRAM
+$11EA=8D39 07 00 5512
+Texto do ponteiro ($1255):[NÍVEL 1]
+
+$11F0=CD39 07 00 5C12
+Texto do ponteiro ($125C):[NÍVEL 2]
+
+$11F6=0D3A 07 00 6312
+Texto do ponteiro ($1263):[NÍVEL 3]
+
+$11FC=4D3A 06 00 6A12
+Texto do ponteiro ($126A):[EDITOR]
+
+$1202=A43A 17 00 7012
+Texto do ponteiro ($1270):[TRADUZIDO POR PATRYCKPO]
+
+$1208=E13A 1D 00 8712
+Texto do ponteiro ($1287):[   VERSÃO  SG1000: © sega 1985]
+
+$1328=6538 0D 00 3413
+Texto do ponteiro ($1334):[ULTRAPASSOU  ]
+
+$132E=A538 0D 00 4113
+Texto do ponteiro ($1341):[BONUS   00PTS]
+
+$134E=A538 0D 00 5C13
+Texto do ponteiro ($135C):[  SEM BONUS  ]
+
+$1CF5=[VOLTAR-BOTÃO DIR.]
+$1D07=[DELETA-BOTÃO ESQ.]
+
+$202C=D83A 07 00 A020
+Texto do ponteiro ($20A0):[RECORDE]
+$2032=0438 12 00 A720
+Texto do ponteiro ($20A7):[MÁX.  QUAL. PONTOS]
+$203E=8938 05 00 BA20
+Texto do ponteiro ($20BA):[START]
+$2C38=8438 05 00 C62B
+Texto do ponteiro ($2BC6):[FIM ?]
+
+$2C3E=E838 09 00 CB2B
+Texto do ponteiro ($2BCB):[FIM DE JOGO]
+
+$2C44=8438 0B 00 D62B
+Texto do ponteiro ($2BD6):[VERIFICANDO]
+
+$2C4A=E738 06 00 E12B
+Texto do ponteiro ($2BE1):[ERRO!!]
+
+$2C50=E938 03 00 E72B
+Texto do ponteiro ($2BE7):[O K]
+
+$2C56=8238 10 00 1B2C
+Texto do ponteiro ($2C1B):[MUDAR PISTA ?   ]
+
+$2C5C=8438 09 00 122C
+Texto do ponteiro ($2C12):[DE NOVO ?]
+
+$2C62=8238 0D 00 2B2C
+Texto do ponteiro ($2C2B):[MUDAR NIVEL ?]
+
+$2C68=023A 14 00 EA2B
+Texto do ponteiro ($2BEA):[SELECIONE UM TRAJETO ]
+
+$2C6E=8438 06 00 FE2B
+Texto do ponteiro ($2BFE):[EDIT ?]
+
+$2C74=A638 0E 00 042C
+Texto do ponteiro ($2C04):[ACABOU O TEMPO]
+
