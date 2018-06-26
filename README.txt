@@ -33,8 +33,9 @@ ser feitas para poder rodar realmente 100% traduzido)
 
 [COL]
 2010: The Graphic Action Game
-Boulde Dash
+Boulder Dash
 Centipede
+Galaxian
 
 [INT]
 
@@ -43,15 +44,27 @@ Centipede
 
 [SG1000]
 Borderline
+Champion Boxing
 Congo Bongo
+Doki Doki Penguin Land
+Dragon Wang
 Flicky
 Girl's Garden
+GP World
+Gulkave
 Lode Runner
+Orguss
+Pachinko
+Pop Flamer
 SEGA Flipper
+SEGA-Galaga
 Wonder Boy
 Zippy Race
 
 [NES]
+Formula One: Built to Win
+The Legend Of Zelda (Tradução comemorativa de 30 anos)
+
 [SMS]
 Action Fighter
 Alien Syndrome
@@ -63,6 +76,10 @@ Argos no Juujiken
 
 [SMD]
 [SNES]
+
+[PCE]
+Die Hard
+
 [NGCD]
 /
 [GB]
@@ -83,8 +100,11 @@ Zool
 [N64]
 /
 [GBC]
+Army Men
+Army Men: Air Combat
 Croc
 Gex: Enter The Gecko
+
 [NGP]
 
 6th
