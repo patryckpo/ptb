@@ -54,16 +54,20 @@ GP World
 Gulkave
 Lode Runner
 Orguss
+Pacar
 Pachinko
 Pop Flamer
+Pitfall II
 SEGA Flipper
 SEGA-Galaga
 Wonder Boy
 Zippy Race
+Zoom 909
 
 [NES]
 Formula One: Built to Win
 The Legend Of Zelda (Tradução comemorativa de 30 anos)
+Pac-Man (Come-Come)
 
 [SMS]
 Action Fighter
