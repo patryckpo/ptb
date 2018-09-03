@@ -1,0 +1,154 @@
+$8F8 possuia texto (SCENE) mas como não achei o ponteiro mudei para outra
+coisa, se achar algum texto sem sentido me avise.
+
+Ponteiro em $929 (11 2438) indica onde na tela mostrar quantas
+naves inimigas você acertou.
+No final de cada nível o jogo pisca a quantidade de naves que você
+destruiu. O ponteiro está em $33FD (11 2338 01 04 00)
+As posições 18 e 19 na RAM indicam, em "little endian", quantas naves foram atingidas (E703 é o máximo, que seria 999 em hexadecimal, mas o contador conta acima deste valor, exibindo ";" no lugar do 10xx)
+
+Ponteiro em $1275 (11 F838) e $1287 (11 9839) indicam onde na tela mostrar a pontuação do
+Jogador 1 e Jogador 2, respectivamente. O ponteiro da pontuação máxima está em $1292 (11 5838).
+DICA: Se for realinhar para outro lugar na tela redirecione o "0" no final para onde precisar,
+mas considere os seis dígitos da pontuação antes de tudo.
+
+Se ficou bagunçado, basicamente siga o que está abaixo desse
+diagrama porco, :)
+-------------------------------------------------------------------
+($236) 21 D504 11 A139 01 1D 00
+       |    |  |  |    |   |  \-Instrução NOP
+       |    |  |  |    |   |
+       |    |  |  |    |   \-Número de caracteres (29)
+       |    |  |  |    |
+       |    |  |  |    \-Instrução "ld bc"
+       |    |  |  |
+       |    |  |  \-Posição na VRAM: $39A1
+       |    |  |
+       |    |  \-Instrução "ld de"
+       |    |
+       |    \-Posição na ROM: $4D5 [APERTE UM BOTÃO NO CONTROLE 1] 
+       |
+       \-Instrução "ld hl"
+-------------------------------------------------------------------
+($22A) 21 F708 11 5B38 01 02 00
+Gráfico ™ perto do nome do jogo
+Posição na ROM: $8F7 [88 89]
+Posição na VRAM: $385B 
+
+($242) 21 F404 11 413A 01 1D 00
+Posição na ROM: $4F4 [APERTE UM BOTÃO NO CONTROLE 2]
+Posição na VRAM: $3A41
+Número de caracteres: 29
+
+($24E) 21 1105 11 A53A 01 17 00
+Posição na ROM: $511 [TRADUZIDO POR PATRYCKPO]
+Posição na VRAM: $3AA5
+Número de caracteres: 23
+
+($25A) 21 2805 11 E53A 01 17 00
+Posição na ROM: $528 [VERSÃO SG1000:©SEGA1985]
+Posição na VRAM: $3AE5
+Número de caracteres: 23
+
+$469 indica quantos caracteres piscar para os
+diálogos de 1 e 2 jogadores, atualmente está
+para 12 caracteres (0C)
+
+($46E) 21 E67F 11 6B39 01 09 00
+Posição na ROM: $7FE6 [1 JOGADOR]
+Posição na VRAM: $396B 
+Número de caracteres: 9
+
+($47A) 21 DB7F 11 0A3A 01 0B 00
+Posição na ROM: $7FDB [2 JOGADORES]
+Posição na VRAM: $3A0A
+Número de caracteres: 11
+
+($675) 11 0538 21 EF7F 01 11 00
+Posição na ROM: $7FEF [TANQUE: |-------|]
+Posição na VRAM: $3805
+Número de caracteres: 17
+
+($681) 11 2838 21 0512 01 0F 00
+Posição na ROM: $1205 [NAVES ATINGIDAS]
+Posição na VRAM: $3825
+Número de caracteres: 15
+
+($75B) 11 1838 21 EF08 01 07 00
+Posição na ROM: $8EF [RECORDE]
+Posição na VRAM: $3818
+Número de caracteres: 7
+
+($767) 11 BA38 21 F908 01 02 00
+Posição na ROM: $8F9 [J1]
+Posição na VRAM: $38BA
+Número de caracteres: 2
+
+($77A) 11 5A39 21 FB08 01 02 00
+Posição na ROM: $8FB [J2]
+Posição na VRAM: $395A
+Número de caracteres: 2
+
+($786) 11 F939 21 FD08 01 05 00
+Posição na ROM: $8FD [NÍVEL]
+Posição na VRAM: $39F9
+Número de caracteres: 5
+
+($792) 11 B93A 21 0209 01 06 00
+Posição na ROM: $902 [© SEGA]
+Posição na VRAM: $3AB9
+Número de caracteres: 6
+
+($79E) 11 FA3A 21 0809 01 04 00
+Posição na ROM: $908 [1985]
+Posição na VRAM: $3AFA
+Número de caracteres: 4
+
+($9CA) 11 8D39 21 920A 01 07 00
+Posição na ROM: $A92 [  VAI! ]
+Posição na VRAM: $398D
+Número de caracteres: 7
+
+($9DC) 21 980A 11 6439 01 11 00
+Posição na ROM: $A98 [ NÍVEL SEGUINTE! ]
+Posição na VRAM: $3964
+Número de caracteres: 17
+
+($9F0) 11 A639 21 9D06 01 0B 00
+Posição na ROM: $69D [FIM DE JOGO]
+Posição na VRAM: $39A6
+Número de caracteres: 12
+
+($A23) 11 8838 21 A80A 01 09 00
+Posição na ROM: $AA8 [ VAZIO ! ]
+Posição na VRAM: $3888
+Número de caracteres: 9
+
+($A62) 21 B90A 11 8738 01 0B 00
+Posição na ROM: $AB9 [  ESCUDO!  ]
+Posição na VRAM: $3887
+Número de caracteres: 11
+------------------------------------------
+Os ponteiros de bônus são exibidos de forma diferente.
+
+($33C9) 11 A838 01 0A00 CD3B00 11 A434 21 10C0 CBFE
+        |    |   \  |     |    |   |   |    |   \-Instrução "set 7, (hl)"
+        |    |    \ |     |    |   |   |    \-Valor na RAM (C010)  
+        |    |     \|     |    |   |   \-Instrução "ld hl"
+        |    |      |     |    |   \-Posição na ROM: $34A4 [BÔNUS ]
+        |    |      |     |    \-Instrução "ld de"
+        |    |      |     \-Instrução "call _LABEL_3B_"
+        |    |      \-Instrução "ld bc, 0A"
+        |    |
+        |    |
+        |    |
+        |    \-Posição na VRAM: $38A8
+        |
+        \-Instrução "ld de"
+
+($340B) B634
+Ponteiro do texto em $34B6 [    NENHUM BÔNUS.]
+
+Em $33B5 (C838) fica o ponteiro da VRAM, onde exibir o comentário de
+quantas naves você destruiu ao final do nível.
+
