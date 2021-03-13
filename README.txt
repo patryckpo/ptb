@@ -4,15 +4,19 @@ Basicamente um repositório com minhas traduções (em IPS) e alguns extras como
 
 Esta lista será atualizada com o que já possui aqui, então o que terá será mais um cabeçalho simples de jogos traduzidos por mim, patryckpo.
 
-NOTA: Agradecimentos a "ajkmetiuk" por me ajudar testando as traduções e a equipe do FUT/RHBR pelo apoio dado até agora.
+NOTA: Agradecimentos a "ajkmetiuk" por me ajudar testando as traduções e a equipe do RHBR pelo apoio dado até agora.
 Ah, também agradecer ao Mr. Fox (devilfox) que está de volta cuidando do PO.B.R.E. e está tendo toda paciência do mundo com meus problemas de compartilhamento (Afinal o OneDrive reduziu sua cota de armazenamento e fui pro Google Drive, mas tô me batendo mais que galinha desnocada, vixe...)
+NOTA2: Estou reupando meu conteúdo pro site novo, que tem hospedagem de arquivos, hehe.
 Apesar de não ter um grupo, pode me mandar uma mensagem ou comentário e terei o maior prazer de lhe ajudar com o que posso, mas poste um comentário coerente em relação a cada tradução aqui(como erros encontrados nas mesmas); agradecimentos, críticas, cobranças e outras dúvidas, postem no site principal:
-                                     ab-gamesinc-br.blogspot.com.br
+                                     https://patryckpo.com/
+                           OU no blog (que ficará inativo daqui a alguns meses)
+                                  ab-gamesinc-br.blogspot.com.br
 ===============================================
 Separado por categorias;
 PC sempre indicado inicialmente;
 outras separações para: Geração ("4th" seria "Quarta") e Sistema (siglas de 2 a 6 letras;Console e Portátil, respectivamente)
 ================================================
+CATEGORIAS DESATUALIZADAS DESDE 2018, ESPERO PODER ATUALIZAR LOGO.
 
 PC
 ----
@@ -43,11 +47,15 @@ Galaxian
 ----
 
 [SG1000]
+007 James Bond
+Bomb Jack
 Borderline
+Champion Baseball
 Champion Boxing
 Congo Bongo
 Doki Doki Penguin Land
 Dragon Wang
+Drol
 Flicky
 Girl's Garden
 GP World
@@ -68,6 +76,7 @@ Zoom 909
 Formula One: Built to Win
 The Legend Of Zelda (Tradução comemorativa de 30 anos)
 Pac-Man (Come-Come)
+PEV-Man (HACK)
 
 [SMS]
 Action Fighter
@@ -83,6 +92,7 @@ Argos no Juujiken
 
 [PCE]
 Die Hard
+Legendary Axe, The
 
 [NGCD]
 /
