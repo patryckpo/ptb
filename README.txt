@@ -17,6 +17,7 @@ PC sempre indicado inicialmente;
 outras separações para: Geração ("4th" seria "Quarta") e Sistema (siglas de 2 a 6 letras;Console e Portátil, respectivamente)
 ================================================
 CATEGORIAS DESATUALIZADAS DESDE 2018, ESPERO PODER ATUALIZAR LOGO.
+SABE-SE-LÁ DESDE QUANDO A WIKI ESTÁ DESATUALIZADA TAMBÉM....
 
 PC
 ----
