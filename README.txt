@@ -11,13 +11,14 @@ Apesar de não ter um grupo, pode me mandar uma mensagem ou comentário e terei 
                                      https://patryckpo.com/
                            OU no blog (que ficará inativo daqui a alguns meses)
                                   ab-gamesinc-br.blogspot.com.br
+OBS: Obrigado a quem está me seguindo aqui no GitHub, mesmo não possuíndo o conhecimento técnico para desconstruir cada jogo que traduzo. Estarei tentando atualizar o repositório nestas próximas semanas...
 ===============================================
 Separado por categorias;
 PC sempre indicado inicialmente;
 outras separações para: Geração ("4th" seria "Quarta") e Sistema (siglas de 2 a 6 letras;Console e Portátil, respectivamente)
 ================================================
-CATEGORIAS DESATUALIZADAS DESDE 2018, ESPERO PODER ATUALIZAR LOGO.
-SABE-SE-LÁ DESDE QUANDO A WIKI ESTÁ DESATUALIZADA TAMBÉM....
+CATEGORIAS DESATUALIZADAS DESDE 2021, ESPERO PODER ATUALIZAR LOGO.
+WIKI SENDO ATUALIZADA....
 
 PC
 ----
@@ -51,20 +52,23 @@ Bomb Jack
 Borderline
 Champion Baseball
 Champion Boxing
+Choplifter
 Congo Bongo
-Doki Doki Penguin Land
+Doki Doki Penguin Land (Um dia de um Pinguim)
 Dragon Wang
 Drol
+Elevator Action
 Flicky
 Girl's Garden
 GP World
 Gulkave
 Lode Runner
 Orguss
-Pacar
+Pacar (Manual traduzido)
 Pachinko
 Pop Flamer
 Pitfall II
+Road Fighter (Unlicensed)
 SEGA Flipper
 SEGA-Galaga
 Wonder Boy
@@ -72,6 +76,7 @@ Zippy Race
 Zoom 909
 
 [NES]
+(Higgins/Tina em) Adventure Island III
 Formula One: Built to Win
 The Legend Of Zelda (Tradução comemorativa de 30 anos)
 Pac-Man (Come-Come)
@@ -82,6 +87,8 @@ Action Fighter
 Alien Syndrome
 Altered Beast
 Argos no Juujiken
+Bonanza Bros. (Irmãos Bonanza)
+Road Fighter (Unlicensed)
 
 4th
 ----
@@ -100,7 +107,7 @@ Addams Family: Pugsley's Scavenger Hunt
 Adventure Island
 Adventure Island II: Aliens In Paradise
 Aero Star
-Zool
+Zool (Projeto incompleto)
 
 [SGG]
 
@@ -114,9 +121,9 @@ Zool
 /
 [GBC]
 Army Men
-Army Men: Air Combat
-Croc
-Gex: Enter The Gecko
+Army Men: Air Combat (Projeto incompleto)
+Croc (Projeto incompleto)
+Gex: Enter The Gecko (Gráficos sem edição)
 
 [NGP]
 
